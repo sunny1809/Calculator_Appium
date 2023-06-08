@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.RunTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.36 s <<< FAILURE! -- in testRunner.RunTest
+testRunner.RunTest -- Time elapsed: 20.36 s <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "io.appium.java_client.android.AndroidDriver.quit()" because "hooks.CucumberHooks.driver" is null
+	at hooks.CucumberHooks.TearDown(CucumberHooks.java:49)
+
